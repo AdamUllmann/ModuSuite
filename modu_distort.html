@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modu-DISTORT | Modu-Suite VST Collection</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        .d-flex.justify-content-center img {
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        h2, h3, h5, p, ul, li {
+            font-size: 1.2em;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        #features, #usage, #tips, #system-requirements, #installation, #license {
+            margin-top: 20px;
+        }
+        #license, .footer {
+            margin-top: 30px;
+        }
+        #subtitle a {
+            font-size: 1.4em;
+            color: rgb(57, 126, 36);
+            font-weight: bolder;
+            font-family: monospace;
+        }
+        #subtitle a:hover {
+            font-size: 1.4em;
+            color: rgb(107, 154, 168);
+            font-weight: bolder;
+            font-family: monospace;
+            transition: color 0.2s ease;
+        }
+    </style>
+    <script src="assets/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                
+                <div class="navbar-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active" href="index.html">Products</a>
+                            <div class="dropdown-menu">
+                                <a href="modu_synth.html" class="dropdown-item">modu-SYNTH</a>
+                                <a href="modu_distort.html" class="dropdown-item">modu-DISTORT</a>
+                                <a href="modu_filter.html" class="dropdown-item">modu-FILTER</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container body-container">
+        <div class="logo d-flex justify-content-center">
+            <img height="120" width="120" alt="Modu-Suite" src="assets/logo.png">
+        </div>
+        <div class="d-flex justify-content-center">
+            <h2 id="title">Modu-DISTORT - Versatile Audio Distortion Plugin</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <h5 id="subtitle">
+                <a href="https://github.com/AdamUllmann/modu-DISTORT" target="_blank">
+                    Click here for the GitHub
+                </a>
+            </h5>
+        </div>
+        <div class="d-flex justify-content-center">
+            <img src="assets/products/modu_distort.png" alt="Distortion Interface" style="max-width: 100%;">
+        </div>
+        <div id="features">
+            <h1>Features</h1>
+            <ul>
+                <li>Multiple Distortion Types: Includes Tube, Soft Clip, Hard Clip, and Fuzz.</li>
+                <li>Drive Control: Adjusts the intensity of the distortion effect.</li>
+                <li>Mix Control: Blends the processed signal with the original.</li>
+                <li>Input and Output Volume Controls: Separate controls for optimum signal levels.</li>
+                <li>Intuitive Interface: User-friendly interface with clear labeling.</li>
+                <li>Stereo Processing: Capable of processing stereo signals.</li>
+            </ul>
+        </div>
+        <div id="system-requirements">
+            <h1>System Requirements</h1>
+            <p>Compatible with most DAWs (Digital Audio Workstations) supporting VST, AU, and other common plugin formats.</p>
+        </div>
+        <div id="installation">
+            <h1>Installation</h1>
+            <ul>
+                <li>Download the plugin from the provided link.</li>
+                <li>Extract the downloaded file to C:Program_Files/Common_files/VST3.</li>
+                <li>Follow your DAW's instructions for adding and scanning new plugins.</li>
+                <li>Locate ModuDistort in your DAW's plugin list and add it to a track.</li>
+            </ul>
+        </div>
+        <div id="usage">
+            <h1>Usage</h1>
+                <li>Select Distortion Type: Choose from Tube, Soft Clip, Hard Clip, or Fuzz.</li>
+                <li>Adjust Drive: Increase for more intensity or decrease for subtler effects.</li>
+                <li>Set Mix Level: Find the perfect blend between the original and distorted signals.</li>
+                <li>Manage Volumes: Use Input and Output controls to manage signal levels before and after processing.</li>
+        </div>
+        <div id="tips">
+            <h1>Tips for Best Results</h1>
+                <li>Experiment with different distortion types on various instruments to discover unique sound textures.</li>
+                <li>Use the Mix control to add just a hint of distortion for subtle enhancements or go full for more aggressive effects.</li>
+                <li>Adjust input volume to control how hard the signal hits the distortion stage for varied effects.</li>
+
+        </div>
+        <div id="license">
+            <h1>License</h1>
+            <p>This plugin is distributed under the <a href="https://github.com/AdamUllmann/Modu-DISTORT/blob/master/LICENSE">Apache License 2.0</a>.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                © 2024 Modu-Suite
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var dropdownToggle = document.querySelector('.dropdown-toggle');
+            var dropdownMenu = document.querySelector('.dropdown-menu');
+
+            dropdownToggle.addEventListener('click', function () {
+                dropdownMenu.classList.toggle('show');
+            });
+
+            document.addEventListener('click', function (event) {
+                if (!dropdownToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                    dropdownMenu.classList.remove('show');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
