@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modu-Suite | Home of the Modu-Suite VST Collection</title>
     <link rel="stylesheet" href="assets/styles.css">
-    <script src="assets/script.js"></script>
     <link rel="shortcut icon" type="image/png" href="assets/logo.png">
 </head>
 <body>
@@ -25,6 +23,7 @@
                                 <a href="modu_synth.html" class="dropdown-item">modu-SYNTH</a>
                                 <a href="modu_distort.html" class="dropdown-item">modu-DISTORT</a>
                                 <a href="modu_filter.html" class="dropdown-item">modu-FILTER</a>
+                                <a href="modu_scope.html" class="dropdown-item">modu-SCOPE</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -35,7 +34,6 @@
             </div>
         </nav>
     </header>
-
     <div class="container body-container">
         <div class="logo d-flex justify-content-center">
             <img height="120" width="120" alt="Modu-Suite" src="assets/logo.png">
@@ -70,11 +68,18 @@
                 </div>
             </div>
         </a>
+        <a href="modu_scope.html">
+            <div class="d-flex product-tab scope-bg">
+                <div class="caption">
+                    <h1>modu-SCOPE</h1>
+                    <h5>Lightweight Audio Visualizer</h5>
+                </div>
+            </div>
+        </a>
         <br>
         <br>
         <br>
     </div>
-
     <footer class="footer">
         <div class="container">
             <p>
@@ -82,24 +87,5 @@
             </p>
         </div>
     </footer>
-
-   <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var dropdownToggle = document.querySelector('.dropdown-toggle');
-            var dropdownMenu = document.querySelector('.dropdown-menu');
-
-            dropdownToggle.addEventListener('click', function () {
-                dropdownMenu.classList.toggle('show');
-            });
-
-            document.addEventListener('click', function (event) {
-                if (!dropdownToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
-                    dropdownMenu.classList.remove('show');
-                }
-            });
-        });
-    </script>
-
 </body>
-
 </html>

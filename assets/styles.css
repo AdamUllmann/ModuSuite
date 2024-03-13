@@ -65,23 +65,45 @@ a {
     opacity: 0.8;
     border: 2px solid #070707;
     border-radius: 10px;
-}
+    position: relative;
+    overflow: hidden;
+} 
 
 .synth-bg {
+    background-image: url('products/modu_synth.png');
+    background-size: 50% auto; 
+    background-repeat: no-repeat;
+    background-position: right 20%;
     background-color: #000000;
 }
 
 .distort-bg {
+    background-image: url('products/modu_distort.png');
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: right 50%;
     background-color: #000000;
 }
 
 .filter-bg {
+    background-image: url('products/modu_filter.png');
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: right 45%;
+    background-color: #000000;
+}
+
+.scope-bg {
+    background-image: url('products/modu_scope.png');
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: right 50%;
     background-color: #000000;
 }
 
 .product-tab:hover {
     background-color: #070707;
-    opacity: 0.9;
+    opacity: 1.0;
 }
 
 .product-tab h1 {
@@ -129,6 +151,7 @@ a {
     border-radius: 20px;
     margin: 5px 0;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .dropdown-item:hover {
@@ -202,7 +225,7 @@ a {
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease;
-    border-radius: 20px;
+    border-radius: 15px;
     transform: translateX(-20%);
     padding: 15px 0;
 }
@@ -215,3 +238,5 @@ a {
 .nav-link.active {
     border-bottom-color: #249724;
 }
+
+
