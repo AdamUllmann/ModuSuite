@@ -1,4 +1,4 @@
-# Modu-Suite
+# [Modu-Suite](https://adamullmann.github.io/ModuSuite/)
 
 Welcome to Modu-Suite, your collection of advanced audio plugins!
 
