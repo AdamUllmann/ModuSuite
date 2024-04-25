@@ -21,6 +21,8 @@ Modu-Suite is a comprehensive collection of digital audio plugins designed to en
 
 - **modu-FILTER**: A dynamic audio filter plugin designed using the JUCE framework. It provides intuitive control over filter parameters, including cutoff frequency, resonance, and support for various filter types.
 
+- **modu-SCOPE**: A Lightweight Audio Visualizer that displays real-time visual audio Processing with Low Latency. Features a spectrogram and oscilloscope.
+
 ## Getting Started
 
 To use Modu-Suite plugins, follow these general steps:
