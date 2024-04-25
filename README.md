@@ -7,6 +7,7 @@ Welcome to Modu-Suite, your collection of advanced audio plugins!
 - [modu-SYNTH](https://github.com/AdamUllmann/modu-SYNTH)
 - [modu-DISTORT](https://github.com/AdamUllmann/modu-DISTORT)
 - [modu-FILTER](https://github.com/AdamUllmann/modu-FILTER)
+- [modu-SCOPE](https://github.com/AdamUllmann/modu-SCOPE)
 
 ## Overview
 
