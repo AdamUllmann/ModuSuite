@@ -23,14 +23,6 @@ Modu-Suite is a comprehensive collection of digital audio plugins designed to en
 
 - **modu-SCOPE**: A Lightweight Audio Visualizer that displays real-time visual audio Processing with Low Latency. Features a spectrogram and oscilloscope.
 
-## Getting Started
-
-To use Modu-Suite plugins, follow these general steps:
-
-1. Clone the repository for the desired plugin.
-2. Follow the installation instructions provided in the plugin's README.
-3. Explore the features and capabilities of each plugin to enhance your audio production workflow.
-
 ## Support and Contributions
 
 If you encounter any issues, have feature requests, or want to contribute, feel free to open an issue or submit a pull request on the respective product's repository.
