@@ -1,6 +1,6 @@
 # [Modu-Suite](https://adamullmann.github.io/ModuSuite/)
-
 Welcome to Modu-Suite, your collection of advanced audio plugins!
+![Plugins](https://github.com/AdamUllmann/images-for-repos/blob/4c83f4119c3f38e1eb6da5af9021798dea98c9e4/modu.png)
 
 ## Products
 
